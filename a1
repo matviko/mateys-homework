@@ -1,0 +1,3 @@
+zahlen = [7, 3, 11, 42, 5]
+print("Größte Zahl:", max(zahlen))
+print("Kleinste Zahl:", min(zahlen))

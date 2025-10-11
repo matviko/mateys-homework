@@ -1,0 +1,5 @@
+x = int(input("Zahl: "))
+if x > 10:
+    print("größer als 10")
+else:
+    print("nicht größer als 10")

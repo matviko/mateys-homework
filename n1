@@ -1,0 +1,12 @@
+def mean(a, b):
+    return (a + b) / 2
+
+def is_even(n):
+    return n % 2 == 0
+
+def sum_list(numbers):
+    total = 0
+    for n in numbers:
+        total += n
+    return total
+

@@ -1,0 +1,5 @@
+cities = {"Berlin": 3800000, "Hamburg": 1800000, "München": 1500000}
+print(" Städte und ihre Bevölkerungszahlen:")
+for city, pop in cities.items():
+    print(f" - {city}: {pop} Einwohner")
+print()

@@ -1,0 +1,5 @@
+namen = ["Anna", "Ben", "Clara", "David", "Eva"]
+
+with open("namen.txt", "w") as f:
+    for name in namen:
+        f.write(name + "\n")

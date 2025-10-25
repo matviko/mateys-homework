@@ -1,0 +1,7 @@
+tage = 7
+stromverbrauch = [5, 6, 4, 5, 7, 6, 5]  # kWh pro Tag
+
+gesamt = 0
+for verbrauch in stromverbrauch:
+    gesamt += verbrauch
+print("Gesamtverbrauch in einer Woche:", gesamt, "kWh")

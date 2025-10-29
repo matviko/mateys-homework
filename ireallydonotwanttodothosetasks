@@ -1,0 +1,18 @@
+import csv
+
+# Lesen der Datei
+with open("numbers.csv", "r") as f:
+    reader = csv.reader(f)
+    data = [float(row[0]) for row in reader]
+
+average = sum(data) / len(data)
+maximum = max(data)
+
+# Schreiben der Ergebnisse
+with open("results.csv", "w", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerow(["Average", average])
+    writer.writerow(["Maximum", maximum])
+
+print("Average:", average)
+print("Maximum:", maximum)

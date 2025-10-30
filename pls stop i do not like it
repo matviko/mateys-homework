@@ -1,0 +1,3 @@
+with open("zahlen.txt", "r") as file:
+    # jede Zeile in eine Zahl umwandeln
+    data = [float(line.strip()) for line in file]
